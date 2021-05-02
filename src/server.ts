@@ -6,6 +6,8 @@ import swaggerFile from '../swagger.json';
 import './modules/cars/infra/ioc/container';
 import { routes } from './routes';
 
+import "./infraestructure/database";
+
 const app = express();
 
 app.use(express.json());
